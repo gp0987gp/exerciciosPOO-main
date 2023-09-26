@@ -14,9 +14,9 @@ class Produto {
         return "Desconto de " + desconto + " aplicado . " + "Novo preço de  " + (this.preco - valorDesconto);
     }
 }
-let produto = new Produto("Celular", 800, "Motorola");
-let produto2 = new Produto("Fone", 200, "Sansung");
-let produto3 = new Produto("Computador", 2000, "Macbook");
+let produto = new Produto("Celular", 1200, "Motorola");
+let produto2 = new Produto("Fone", 300, "Xiaomi");
+let produto3 = new Produto("Notebook", 8000, "Dell G15");
 console.log(produto);
 console.log(produto2);
 console.log(produto3);
